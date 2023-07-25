@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Flow06 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP61.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Flow06.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP61.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP62.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Flow06.pdb" /debug /machine:I386 /out:"Debug/Flow06.exe" /pdbtype:sept 
+".\Debug\Flow06.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP62.tmp"
+<h3>Output Window</h3>
+Compiling...
+Flow06.c
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(6) : warning C4013: 'trans20' undefined; assuming extern returning int
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(13) : warning C4013: 'printf' undefined; assuming extern returning int
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(14) : warning C4013: 'scanf' undefined; assuming extern returning int
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(24) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(26) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(27) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(28) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(29) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\工程实例2\杂碎\求两个代数形式复数相除所得之商\Flow06.c(31) : warning C4716: 'trans20' : must return a value
+Linking...
+
+
+
+<h3>Results</h3>
+Flow06.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>
